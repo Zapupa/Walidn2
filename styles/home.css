@@ -1,0 +1,195 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+.title {
+  font-family: "Montserrat", sans-serif;
+  color: #1e2827;
+  font-size: 40px;
+  font-weight: 600;
+  text-align: left;
+  line-height: 44px;
+  letter-spacing: -2%;
+}
+
+/* Header */
+
+.header_wrapper {
+  max-width: 1260px;
+  /* border: 1px solid black; */
+
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.header_bg {
+  position: absolute;
+  left: 0;
+  top: 0;
+
+  width: 100%;
+  z-index: -100;
+}
+
+.header_main {
+  height: 548px;
+}
+
+.header_text {
+  margin-top: 127px;
+  max-width: 776px;
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid black; */
+
+  gap: 20px;
+}
+
+.header_text_header {
+  font-size: 80px;
+  font-weight: 600px;
+  line-height: 57px;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+}
+
+.header_text_par {
+  font-size: 20px;
+  font-weight: 400px;
+  line-height: 30px;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+}
+
+.header_net {
+  height: 147px;
+}
+
+/* about Us */
+
+.about_page {
+  margin: 0 auto;
+  height: 790px;
+  max-width: 1260px;
+  padding: 80px 0;
+
+  display: flex;
+  justify-content: space-between;
+  /* border: 1px solid red; */
+}
+
+.about_main {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  max-width: 892px;
+}
+
+.about_text {
+  font-family: "Epilogue", sans-serif;
+  width: 90%;
+  /* border: 1px solid red; */
+  display: flex;
+  gap: 40px;
+
+  color: #1e2827;
+  font-size: 14px;
+  font-weight: 300;
+  text-align: left;
+  line-height: 18px;
+  letter-spacing: -2%;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Акции */
+
+.sale_page {
+  margin: 0 auto;
+  min-height: 662px;
+  max-width: 1260px;
+  padding: 80px 0;
+
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  gap: 110px;
+  /* border: 1px solid red; */
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  /* border: 1px solid red; */
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 25px;
+  width: 32%;
+  height: auto;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.card_img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.card_main {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  /* height: auto; */
+}
+
+.card_title {
+  color: #000;
+  font-size: 26px;
+  font-weight: 600;
+  text-align: left;
+  line-height: 30px;
+  font-family: "Roboto", sans-serif;
+}
+
+.card_desc {
+  color: #989898;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: left;
+  line-height: 30px;
+  font-family: "Roboto", sans-serif;
+}
+
+.card_buy {
+  display: flex;
+  justify-content: space-between;
+
+  color: #2475d1;
+  font-size: 26px;
+  font-weight: 600;
+  text-align: left;
+  line-height: 30px;
+  font-family: "Roboto", sans-serif;
+}
+
+.card_price {
+  display: flex;
+}
+
+.card_oldprice {
+  color: #989898;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: left;
+  line-height: 30px;
+  font-family: "Roboto", sans-serif;
+
+  text-decoration: line-through;
+}

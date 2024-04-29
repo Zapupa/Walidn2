@@ -1,0 +1,208 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+body {
+  background-color: #1b6ac6;
+}
+
+.wrapper {
+  max-width: 1260px;
+  /* border: 1px solid black; */
+
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  gap: 50px;
+}
+
+.main {
+  padding: 26px;
+  max-width: 1260px;
+  background-color: #fff;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+}
+
+/* Card */
+
+.card {
+  background: white;
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+
+  display: flex;
+  align-items: center;
+
+  gap: 48px;
+}
+
+.card_img {
+  width: 468px;
+  height: 414px;
+
+  border-radius: 10px 0 0 10px;
+}
+
+.card_text {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 34px;
+}
+
+.card_text_top {
+  /* width: 100%; */
+  display: flex;
+  justify-content: space-between;
+}
+
+.card_top_header {
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 30px;
+  color: #000;
+  font-family: "Roboto", sans-serif;
+}
+
+.card_top_par {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 30px;
+  color: #989898;
+  font-family: "Roboto", sans-serif;
+}
+
+.card_text_mid {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 30px;
+  color: #989898;
+  font-family: "Roboto", sans-serif;
+}
+
+/* reservation */
+
+.reservation {
+  display: flex;
+  gap: 16px;
+}
+
+.res_left {
+  display: flex;
+  flex-direction: column;
+  gap: 46px;
+}
+
+.res_right {
+  display: flex;
+  flex-direction: column;
+  gap: 46px;
+}
+
+.input {
+  margin-top: 12px;
+
+  padding: 18px 35px;
+  border: 1px solid #1b6ac6;
+  border-radius: 10px;
+
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 22px;
+  letter-spacing: -2%;
+  color: #141414;
+  font-family: "Montserrat", sans-serif;
+}
+
+.input::placeholder {
+  color: rgba(20, 20, 20, 50%);
+}
+
+.textarea {
+  width: 100%;
+  min-height: 300px;
+
+  padding: 18px 35px;
+  border: 1px solid #1b6ac6;
+  border-radius: 10px;
+
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 22px;
+  letter-spacing: -2%;
+  color: #141414;
+  font-family: "Montserrat", sans-serif;
+
+  resize: none;
+}
+
+.textarea::placeholder {
+  color: rgba(20, 20, 20, 50%);
+}
+
+.res_block {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.res_price {
+  margin-top: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.price_top {
+  width: 100%;
+  border-bottom: 1px solid #000;
+  display: flex;
+  gap: 4px;
+}
+
+.price_number {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 40px;
+  color: #000;
+  font-family: "Roboto", sans-serif;
+}
+
+.price_valuta {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 22px;
+  color: rgba(20, 20, 20, 50%);
+  font-family: "Montserrat", sans-serif;
+
+  text-transform: uppercase;
+  /* width: 110px; */
+}
+
+.price_text {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.price_block {
+  display: flex;
+  justify-content: space-between;
+  /* gap: 12px; */
+
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 22px;
+  color: rgba(20, 20, 20, 50%);
+  font-family: "Montserrat", sans-serif;
+}
+
+.btn {
+  text-align: center;
+}
